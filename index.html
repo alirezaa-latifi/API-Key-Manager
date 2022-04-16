@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API-Key Manager</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hero.css">
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">JS - Part 1</h1>
+        </div>
+    </header>
+    <!-- header end -->
+
+
+    <!-- hero start -->
+    <section class="hero">
+        <div class="container hero_wrapper">
+            <form class="form" action="#">
+                <div class="form__item">
+                    <label for="form__user-name">User Name</label>
+                    <input id="form__user-name" class="form__user-name" type="text">
+                </div>
+
+                <div class="form__item">
+                    <label for="form__api-key">API Key</label>
+                    <input id="form__api-key" class="form__api-key" type="text">
+                </div>
+                <div class="form__item">
+                    <label for="form__api-secret">API Secret</label>
+                    <input id="form__api-secret" class="form__api-secret" type="password" name="" id="">
+                </div>
+
+                <button class="btn btn--primary form__btn">Submit</button>
+            </form>
+
+            <div class="hero__api-manager">
+
+                <h2 class="hero__title">API Key Manager</h2>
+                <div class="hero__table-wrapper">
+                    <table class="table">
+                        <thead class="table__header">
+                            <tr>
+                                <th>#</th>
+                                <th>User Name</th>
+                                <th>API Key</th>
+                                <th>API Secret</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>danial</td>
+                                <td>dfwifhwejhu9l</td>
+                                <td>adahsnf***fdsak</td>
+                                <td>
+                                    <button class="btn btn--danger table__btn">Delete</button>
+                                    <button class="btn btn--primary table__btn">Edit</button>
+                                </td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
